@@ -22,3 +22,12 @@
     # edit firstJson/settings.py and change ALLOWED_HOSTS
     ./manage.py runserver $IP:$PORT
     firefox https://first-json-sdoro.c9users.io/
+
+### 04. create the timeNow app (and verify it)
+
+    ./manage.py startapp timeNow
+    # edit firstJson/url.py
+    > timeNow/urls.py
+    # edit timeNow/url.py
+    # edit timeNow/views.py
+    # firefox https://form-qr-sdoro.c9users.io/puncher/
