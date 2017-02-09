@@ -14,3 +14,11 @@
     source $HOME/.env/bin/activate
     pip install -r requirements.txt
     pip freeze
+
+### 03. create a project named firstJson (and verify it)
+
+    django-admin.py startproject firstJson
+    cd firstJson
+    # edit firstJson/settings.py and change ALLOWED_HOSTS
+    ./manage.py runserver $IP:$PORT
+    firefox https://first-json-sdoro.c9users.io/
